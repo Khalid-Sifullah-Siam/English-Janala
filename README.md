@@ -4,9 +4,11 @@
   <img src="./assets/logo.png" alt="English Janala Logo" width="90" />
 </p>
 
+## Overview
+
 English Janala is a responsive vocabulary learning web application built with HTML, Tailwind CSS, DaisyUI, and vanilla JavaScript. The project helps learners explore English lessons, search vocabulary, listen to pronunciations, and view detailed word information through a clean and interactive interface.
 
-## Live Links
+## Live Demo
 
 - Live Site: [English Janala](https://khalid-sifullah-siam.github.io/English-Janala)
 - Repository: [Khalid-Sifullah-Siam/English-Janala](https://github.com/Khalid-Sifullah-Siam/English-Janala)
@@ -57,7 +59,7 @@ English-Janala/
 `-- README.md
 ```
 
-## Getting Started
+## Installation
 
 1. Clone the repository:
 
@@ -73,6 +75,10 @@ cd English-Janala
 
 3. Run the project with a static server such as VS Code Live Server.
 
+## Environment Variables
+
+This project does not require any environment variables for local setup because it is a frontend-only static application.
+
 ## How It Works
 
 - The app fetches lesson data and renders lesson buttons dynamically.
@@ -85,9 +91,37 @@ cd English-Janala
 
 - Figma source included in the project: `English-Janala.fig`
 
+## Challenges Faced
+
+- Managing asynchronous API requests while keeping the interface responsive
+- Handling empty vocabulary results and missing data without breaking the UI
+- Keeping lesson filtering, word details, pronunciation, and search behavior organized in vanilla JavaScript
+
+## Lessons Learned
+
+- How to build a dynamic data-driven interface using `fetch()` and DOM manipulation
+- How to improve user experience with loading states, modal details, and active button states
+- How to use the Web Speech API to add pronunciation support in a practical way
+
+## Future Improvements
+
+- Add a saved words or favorite vocabulary feature
+- Add better search behavior such as instant filtering or debounced search
+- Improve error handling for failed API requests
+- Add user progress tracking and lesson completion features
+
+## Author
+
+- Khalid Sifullah Siam
+- GitHub: [Khalid-Sifullah-Siam](https://github.com/Khalid-Sifullah-Siam)
+
+## License
+
+This project currently does not include a `LICENSE` file. If you plan to reuse or distribute it, adding a clear license would be a good next step.
+
 ## Project Photos
 
-Below are the project photos from the `assets/Images` folder, arranged serially and placed at the end of this README.
+Below are the latest project photos from the `assets/Images` folder, arranged serially.
 
 **1. Project Photo 1**
 
@@ -116,5 +150,3 @@ Below are the project photos from the `assets/Images` folder, arranged serially 
 **7. Project Photo 7**
 
 <img src="./assets/Images/Screenshot (80).png" alt="Project Photo 7" width="800" />
-
-
